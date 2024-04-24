@@ -1,0 +1,856 @@
+@font-face {
+    font-family: 'Abel';
+    src: url(Abel-Regular.ttf);}
+.header{/* header */
+
+
+    position: absolute;
+    width: 100%;
+    height: 112px;
+    left: 0px;
+    top: 0px;
+    
+    background: #ffffff;}
+.logo{/* porsche logo 2 */
+
+
+    position: absolute;
+    width: 166px;
+    height: 112px;
+    left: 76px;
+    top: 0px;}
+.p718{/* 718 (1) 1 */
+
+
+    position: absolute;
+    width: 89px;
+    height: 65px;
+    left: 282px;
+    top: 0px;}
+.p911{/* 911 1 */
+
+
+    position: absolute;
+    width: 89px;
+    height: 66px;
+    left: 401px;
+    top: 0px;}
+.taycan{/* taycan (1) 1 */
+
+
+    position: absolute;
+    width: 89px;
+    height: 66px;
+    left: 519px;
+    top: 3px;}
+.panamera{/* panamera (1) 1 */
+
+
+    position: absolute;
+    width: 93px;
+    height: 66px;
+    left: 638px;
+    top: 0px;}
+.macan{/* macan (1) 1 */
+
+
+    position: absolute;
+    width: 89px;
+    height: 66px;
+    left: 760px;
+    top: 0px;}
+.cayenne{/* cayenne (1) 1 */
+
+
+    position: absolute;
+    width: 89px;
+    height: 66px;
+    left: 877px;
+    top: 4px;}
+.NEWS{/* NEWS */
+
+
+    position: absolute;
+    width: 72px;
+    height: 19px;
+    left: 1017px;
+    top: 24px;
+    
+    font-family: 'Abel';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 69.2%;
+    /* or 17px */
+    
+    text-align: center;
+    letter-spacing: 0.02em;
+    
+    color: #000000;}
+.PORSCHEORIGINAL{/* PORSCHE ORIGINAL */
+
+
+    position: absolute;
+    width: 198px;
+    height: 17px;
+    left: 1116px;
+    top: 20px;
+
+    font-family: 'Abel';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 69.2%;
+    /* identical to box height, or 17px */
+    
+    text-align: center;
+    letter-spacing: 0.045em;
+    
+    color: #000000;}
+.KENTLER{/* KENTLER */
+
+
+    position: absolute;
+    width: 169px;
+    height: 50px;
+    left: 1175px;
+    top: -51px;
+    
+    font-family: 'Archivo Narrow';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 65px;
+    text-align: center;
+    letter-spacing: -0.12em;
+    
+    color: #000000;}
+.main{/* main */
+
+
+    position: absolute;
+    width: 100%;
+    height: 1908px;
+    left: 0px;
+    top: 112px;
+    
+    background: #171313;}
+.oldnew911{/* 2019-porsche-911-carrera-s-992-mashina-sportivnaia-pokolenii 1 */
+
+
+    position: absolute;
+    width: 100%;
+    height: 700px;
+    left: 0px;
+    top: 0px;
+    
+    background: url(2019-porsche-911-carrera-s-992-mashina-sportivnaia-pokolenii.jpg);}
+@font-face {
+    font-family: 'Aldrich' ;
+    src: url(aldrichrusbydaymarius.ttf);
+}
+.p911text{/* 911 */
+
+
+    position: absolute;
+    width: 250px;
+    height: 102px;
+    top: 50px;
+    margin: 0px;
+    left: 41%;
+    font-family: 'Aldrich';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 128px;
+    line-height: 86.8%;
+    /* or 111px */
+    
+    text-align: center;
+    letter-spacing: 0.12em;
+    
+    color: #FFFFFF;
+
+    text-shadow: 19px 11px 5px rgba(0, 0, 0, 0.25);
+    filter: brightness(100%);
+    transition: all 0.6s ease;
+}
+.p911text:hover{
+    filter: brightness(58%);
+}
+.groups{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 700px;
+}
+.groups img{width: 449.6px;} 
+.line1{/* Vector 1 */
+
+
+    position: absolute;
+    width: 1279px;
+    height: 5px;
+    left: 42px;
+    top: 1350px;
+    
+    border: 3px solid #FFFFFF;
+    border-radius: 10px;}
+#container_footer{
+    position: absolute;
+    left: 0px;
+    top: 1430px;
+    display: flex;
+    text-align: center;
+    color: #FFFFFF;
+    width: 100%;
+    height: 300px;
+     
+    font-family: 'Basic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 270.0%;
+    /* or 69px */
+
+    text-align: center;
+    letter-spacing: 0.005em;
+    justify-content: space-around;}
+#container_footer li{
+    align-self: center;
+    text-align: center;}
+
+.main2{/* main */
+
+
+    position: absolute;
+    width: 100%;
+    height: 2974px;
+    left: 0px;
+    top: 112px;
+    
+    background: #171313;}
+
+.PORSCHE911{/* PORSCHE 911 */
+
+
+    position: absolute;
+    width: 380px;
+    height: 44px;
+    left: 493px;
+    top: 40px;
+    
+    font-family: 'Anek Latin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 56px;
+    line-height: 69.2%;
+    /* or 44px */
+    
+    text-align: center;
+    letter-spacing: 0.045em;
+    
+    color: #FFFFFF;}
+
+.line2{/* Vector 6 */
+
+
+    position: absolute;
+    width: 870px;
+    height: 0px;
+    left: 248px;
+    top: 160px;
+    
+    border: 4px solid #FFFFFF;
+    border-radius: 10px;}
+
+.PORSCHE3561{/* ПОРШЕ 356 1 */
+
+
+    position: absolute;
+    width: 571px;
+    height: 324px;
+    left: 64px;
+    top: 198px;}
+
+    @font-face {
+        font-family: 'Anek' ;
+        src: url(AnekLatin-VariableFont_wdth\,wght.ttf);}
+
+.textstory1{position: absolute;
+width: 645px;
+height: 332px;
+left: 671px;
+top: 198px;
+
+font-family: 'Anek';
+font-style: normal;
+font-weight: 400;
+font-size: 26px;
+line-height: 114.2%;
+/* or 30px */
+
+letter-spacing: 0.04em;
+
+color: #FFFFFF;}
+
+.PORSCHE356TWO{/* 900f8ee8a5b132a4597ae80ba0c395d4 1 */
+
+
+    position: absolute;
+    width: 633px;
+    height: 335px;
+    left: 671px;
+    top: 555px;}
+.textstory2{/* История 911-ой модели началась в 1963 году с ошибки. Прототип был назван 901-ым и был представлен на Автосалоне во Франкфурте. Но поскольку права на цифры и 01 принадлежали Peugeot, то Porsche быстро изменило название на 911. Модель поразила не только покупателей, но и испытателей. */
+
+
+    position: absolute;
+    width: 571px;
+    height: 234px;
+    left: 64px;
+    top: 555px;
+    
+    font-family: 'Anek Latin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 114.2%;
+    /* or 30px */
+    
+    letter-spacing: 0.04em;
+    
+    color: #FFFFFF;}
+.PORSCHE356THREE{/* Porsche-Turbo-1975 1 */
+
+
+    position: absolute;
+    width: 571px;
+    height: 357px;
+    left: 64px;
+    top: 925px;}
+.textstory3{/* «Porsche и автоспорт — это почти 60 лет истории и почти 26.000 побед почти во всех уголках гоночного мира» — подытожил свое отношение к автоспорту профессор Ферри Порше в 1970 году. В 80-е годы Porsche вернулся в Формулу 1, в качестве поставщика двигателей для автомобилей McLaren. Три последующих года болиды McLaren с двигателями Porsche были непобедимы и завоевывали первенство в 1984-ом, 1985-ом и 1986-ом годах. */
+
+
+    position: absolute;
+    width: 633px;
+    height: 323px;
+    left: 671px;
+    top: 915px;
+    
+    font-family: 'Anek Latin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 114.2%;
+    /* or 30px */
+    
+    letter-spacing: 0.04em;
+    
+    color: #FFFFFF;}
+.PORSCHE356FOUR{/* porsche 911 sc 1979 1 */
+
+
+    position: absolute;
+    width: 633px;
+    height: 358px;
+    left: 671px;
+    top: 1315px;}
+.textstory4{/* В 1978 году Porsche вознамерился покорить самое сложное ралли в мире, сконструировав для этого модифицированный 911 SC с измененной подвеской. С 250 лошадиными силами в багажнике автомобили отправились за победой через 5 тысяч километров по грязи, песку и болотам. Но в самом конце из-за неполадок, вызванных техническим браком, пилоты Вик Престон и Бьерн ван дер Гард заняли всего лишь 2 и 4 места. */
+
+
+    position: absolute;
+    width: 571px;
+    height: 358px;
+    left: 64px;
+    top: 1315px;
+    
+    font-family: 'Anek Latin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 114.2%;
+    /* or 30px */
+    
+    letter-spacing: 0.04em;
+    
+    color: #FFFFFF;}
+.PORSCHE3565{/* 88-Porsche-959-83 1 */
+
+
+    position: absolute;
+    width: 571px;
+    height: 290px;
+    left: 64px;
+    top: 1712px;}
+.textstory5{/* Городская версия «короля пустыни» Porsche 959 поразила мировой автопром. Это был самый мощный спортивный автомобиль того времени, обладавший электронным полным приводом и двойным турбо надувом. Мощность 450 лошадиных сил была неслыханной для класса «Super Sport», а максимальная скорость 315 км/ч делала 959-ый самым быстрым серийным спортивным автомобилем до 1985 года. */
+
+
+    position: absolute;
+    width: 621px;
+    height: 295px;
+    left: 671px;
+    top: 1697px;
+    
+    font-family: 'Anek Latin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 114.2%;
+    /* or 30px */
+    
+    letter-spacing: 0.04em;
+    
+    color: #FFFFFF;}
+.PORSCHE3566{/* Porsche-911-GT2 1 */
+
+
+    position: absolute;
+    width: 633px;
+    height: 380px;
+    left: 671px;
+    top: 2041px;}
+.textstory6{/* В 2004 году поклонники Porsche вздохнули с облегчением, когда новая 997-я модель вернулась к классическим круглым фарам 911-ой. В 2008 году вышла модель 997-2, которая тоже внешне была копией первоначальной 911-ой. Изменения были лишь под капотом: двигатель с прямым впрыском и 7-ми ступенчатая коробка передач с двойным сцеплением. */
+
+
+    position: absolute;
+    width: 571px;
+    height: 299px;
+    left: 64px;
+    top: 2041px;
+    
+    font-family: 'Anek Latin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 114.2%;
+    /* or 30px */
+    
+    letter-spacing: 0.04em;
+    
+    color: #FFFFFF;}
+.PORSCHE356SEVEN{/* порше 911 на странице про 911 1 */
+
+
+    position: absolute;
+    width: 571px;
+    height: 342px;
+    left: 64px;
+    top: 2461px;}
+.textstory7{/* Porsche 911 прошел долгий путь: от первого автомобиля Фольксваген Жук до современной 991-ой модели. Но с самого начала своего появления он был «чудом на четырех колесах», автомобилем, которому не было равных. Его надежность, спортивность и уникальный дизайн стали бессмертными. Поэтому будущее автомобилей Porsche всегда будет определяться цифрами 911. */
+
+
+    position: absolute;
+    width: 639px;
+    height: 270px;
+    left: 671px;
+    top: 2454px;
+    
+    font-family: 'Anek Latin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 114.2%;
+    /* or 30px */
+    
+    letter-spacing: 0.045em;
+    
+    color: #FFFFFF;}
+.main3{/* main 2 */
+
+
+    position: absolute;
+    width: 100%;
+    height: 2150px;
+    left: 0px;
+    top: 112px;
+    
+    background: #FFFFFF;}
+.T911newscarrera{/* carpixel 1 */
+
+
+    position: absolute;
+    width: 893px;
+    height: 415px;
+    left: 0px;
+    top: 182px;}
+.PORSCHETITTLE{/* Porsche */
+
+
+    position: absolute;
+    width: 322px;
+    height: 68px;
+    left: 60px;
+    top: -40px;
+    
+    font-family: 'Abel';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 96px;
+    line-height: 69.2%;
+    /* or 66px */
+    
+    text-align: center;
+    letter-spacing: 0.005em;
+    
+    color: #000000;}
+.NEWSTITTLE{/* News */
+
+
+    position: absolute;
+    width: 205px;
+    height: 66px;
+    left: 402px;
+    top: -40px;
+    
+    font-family: 'Abel';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 96px;
+    line-height: 69.2%;
+    /* or 66px */
+    
+    text-align: center;
+    letter-spacing: 0.005em;
+    
+    color: #000000;}
+.Porschetaycannews{/* Screen Shot 2021-05-16 at 18.08 1 */
+
+    
+    position: absolute;
+    width: 893px;
+    height: 415px;
+    left: 456px;
+    top: 700px;}
+.Porschecaymannews{/* carpixel 2 */
+
+
+    position: absolute;
+    width: 893px;
+    height: 415px;
+    left: 1px;
+    top: 1218px;}
+.Porschecayennenews{/* 2022-porsche-cayenne-turbo-gt-exterior-front-quarter 1 */
+
+
+    position: absolute;
+    width: 876px;
+    height: 415px;
+    left: 473px;
+    top: 1735px;}
+.Rectangle1{/* черный квадрат с текстом  */
+
+
+    position: absolute;
+    width: 456px;
+    height: 415px;
+    left: 893px;
+    top: 182px;
+    
+    background: #171313;}
+.Rectangle2{/* Rectangle 2 */
+
+
+    position: absolute;
+    width: 473px;
+    height: 415px;
+    left: 0px;
+    top: 700px;
+    
+    background: #171313;}
+.Rectangle3{/* Rectangle 3 */
+
+
+    position: absolute;
+    width: 456px;
+    height: 415px;
+    left: 893px;
+    top: 1218px;
+    
+    background: #171313;}
+.Rectangle4{/* Rectangle 4 */
+
+
+    position: absolute;
+    width: 473px;
+    height: 415px;
+    left: 0px;
+    top: 1735px;
+
+    background: #171313;}
+
+.p911carreraT{/* 911 Carrera T */
+
+
+    position: absolute;
+    width: 270px;
+    height: 33px;
+    left: 941px;
+    top: 170px;
+    
+    font-family: 'Anek';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 69.2%;
+    /* or 33px */
+    
+    text-align: center;
+    letter-spacing: 0.005em;
+    
+    color: #FFFFFF;}
+.p911TText{/* Когда улучшается контакт с дорогой. Когда снижается масса и повышается маневренность. Тогда пробуждается истинный спортивный дух. 911 Carrera T — это приверженность лаконичности. Сознательный отказ от большего.Ради более ярких эмоций во время вождения. */
+
+
+    position: absolute;
+    width: 378px;
+    height: 260px;
+    left: 941px;
+    top: 270px;
+    
+    font-family: 'Anek';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 99.2%;
+    /* or 24px */
+    
+    letter-spacing: 0.035em;
+    
+    color: #FFFFFF;}
+.ptaycandusha{/* Душа, заряженая электричеством. */
+
+
+    position: absolute;
+    width: 436px;
+    height: 99px;
+    left: 18px;
+    top: 701px;
+    
+    font-family: 'Anek';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 103.7%;
+    /* or 47px */
+    
+    text-align: center;
+    letter-spacing: 0.03em;
+    
+    color: #FFFFFF;}
+.ptaycan4s{/* Новый Taycan 4S Cross Turismo. */
+
+
+    position: absolute;
+    width: 444px;
+    height: 77px;
+    left: 14px;
+    top: 828px;
+    
+    font-family: 'Anek';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 103.7%;
+    /* or 36px */
+    
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: capitalize;
+    
+    color: #FFFFFF;}
+.pcaymanS{/* В самом сердце спорта. 718 Cayman S. */
+
+
+    position: absolute;
+    width: 441px;
+    height: 103px;
+    left: 901px;
+    top: 1170px;
+    
+    font-family: 'Anek';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 119.2%;
+    /* or 57px */
+    
+    text-align: center;
+    letter-spacing: -0.015em;
+    
+    color: #FFFFFF;}
+.pcaymanSdinamic{/* Что делает модели 718 такими особенными? Их мощность, динамические характеристики, дизайн, просторный салон с 2 багажниками. Но прежде всего – среднемоторная концепция, которая позволяет реализовать все перечисленные выше достоинства. */
+
+
+    position: absolute;
+    width: 445px;
+    height: 268px;
+    left: 902px;
+    top: 1370px;
+    
+    font-family: 'Anek';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 119.2%;
+    /* or 29px */
+    
+    letter-spacing: -0.015em;
+    
+    color: #FFFFFF;}
+.pdinamic{/* Динамика */
+
+
+    position: absolute;
+    width: 172px;
+    height: 33px;
+    left: 1043px;
+    top: 1300px;
+    
+    font-family: 'Anek';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 119.2%;
+    /* or 42px */
+    
+    letter-spacing: -0.015em;
+    
+    color: #FFFFFF;}
+.pcayennetext{/* Новый Cayenne Turbo GT */
+
+
+    position: absolute;
+    width: 422px;
+    height: 25px;
+    left: 25px;
+    top: 1740px;
+    
+    font-family: 'Anek';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 119.2%;
+    /* or 38px */
+    
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.015em;
+    
+    color: #FFFFFF;}
+.pcayennetext2{/* Линейка Cayenne пополнилась еще одним представителем, обладающим невероятной мощью и точной динамикой. Cayenne Turbo GT обладает всеми необходимыми предпосылками для того, чтобы с самого начала занять лидирующие позиции. */
+
+
+    position: absolute;
+    width: 352px;
+    height: 281px;
+    left: 25px;
+    top: 1800px;
+    
+    font-family: 'Anek';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 119.2%;
+    /* or 29px */
+    
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.015em;
+    
+    color: #FFFFFF;}
+.line3{/* Vector 2 */
+
+
+    position: absolute;
+    width: 1222px;
+    height: 0px;
+    left: 72px;
+    top: 634px;
+    
+    border: 6px solid #171313;
+    border-radius: 10px;}
+.line4{/* Vector 3 */
+
+
+    position: absolute;
+    width: 1222px;
+    height: 0px;
+    left: 72px;
+    top: 1149px;
+    
+    border: 6px solid #171313;
+    border-radius: 10px;}
+.NEWSTITTLESTORY{
+    position: absolute;
+        width: 104px;
+        height: 19px;
+        left: -8px;
+        top: 0px;
+        
+        font-family: 'Abel';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 69.2%;
+        /* or 17px */
+        
+        text-align: center;
+        letter-spacing: 0.02em;
+        
+        color: #000000;
+}
+.MAINMENUTITTLESTORY{
+    position: absolute;
+width: 104px;
+height: 19px;
+left: 900px;
+top: 40px;
+
+font-family: 'Abel';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 69.2%;
+/* or 17px */
+
+text-align: center;
+letter-spacing: 0.02em;
+
+color: #000000;
+}
+.MAINMENU1{
+        position: absolute;
+        width: 104px;
+        height: 19px;
+        left: 980px;
+        top: 40px;
+        
+        font-family: 'Abel';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 69.2%;
+        /* or 17px */
+        
+        text-align: center;
+        letter-spacing: 0.02em;
+        
+        color: #000000;}
+
+.line5{/* Vector 5 */
+
+
+    position: absolute;
+    width: 1222px;
+    height: 0px;
+    left: 72px;
+    top: 1670px;
+    
+    border: 6px solid #171313;
+    border-radius: 10px;}
+a{text-decoration: none;
+  color: #ffffff;}
+.NEWSBLACK{color: #000000;}
+.PORSCHEORIGINALTITTLE{color: #000000;}
+.PORSCHEORIGINALSTORY{color: #000000;}
